@@ -54,17 +54,17 @@ export interface ReceiptSuccessResponse {
      * */
 
     /** Legal organization name */
-    name_spd: 'Общество с ограниченной ответственностью "ГРИНрозница"'
+    name_spd: string
     /** Receipt point name */
-    name_to: 'Магазин "ГРИН-6"'
+    name_to: string
     /** Locality type */
-    type_np: 'г.'
+    type_np: string
     /** Locality name */
-    name_np: 'Брест'
+    name_np: string
     /** Street address part */
-    street_to: 'УЛ. ГАВРИЛОВА'
+    street_to: string
     /** Building address part */
-    house_to: '16'
+    house_to: string
 
     /** SOATO code */
     kod_soato: string
