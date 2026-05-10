@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "private": true,
-  "main": "dist/index.js",
   "scripts": {
-    "convert": "tsx src/convert-receipt.ts"
+    "parse": "tsx src/parse-receipt.ts"
   },
   "devDependencies": {
     "@krislintigo/eslint-config": "^1.0.1",
+    "@krislintigo/tsconfig": "^1.0.1",
     "@types/node": "^22.19.17",
     "eslint": "^9.39.4",
     "prettier": "^3.8.3",

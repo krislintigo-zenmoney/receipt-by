@@ -1,4 +1,4 @@
-import type { Receipt } from './types'
+import type { Receipt } from './types.js'
 
 const STYLES = `
 <style>

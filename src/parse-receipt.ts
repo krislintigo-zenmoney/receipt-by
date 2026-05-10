@@ -2,9 +2,9 @@ import fs from 'node:fs/promises'
 import * as process from 'node:process'
 import readline from 'node:readline/promises'
 
-import { convertReceiptDate } from './converters'
-import { ReceiptHtmlRenderer } from './receipt-html-renderer'
-import type { Receipt, ReceiptPosition, ReceiptResponse } from './types'
+import { convertReceiptDate } from './converters.js'
+import { ReceiptHtmlRenderer } from './receipt-html-renderer.js'
+import type { Receipt, ReceiptPosition, ReceiptResponse } from './types.js'
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 
