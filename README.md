@@ -1,5 +1,11 @@
 # Receipt BY
 
+# IMPORTANT NOTICE:
+### With new Recaptcha v2 protection on the API's side, this tool is no longer working.
+### I was not able to find a way to bypass the captcha.
+
+# 
+
 Small CLI utility for fetching Belarus receipt data from `ch.info-center.by` and saving it as local JSON and a readable HTML receipt.
 
 The tool asks for a receipt number and date, downloads the receipt data, normalizes it into an internal format, and renders a polished HTML version.
